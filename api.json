@@ -1,10 +1,8 @@
 {
-  "category": "UFO_UAP",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/greys",
     "maintainers": [
       {
@@ -18,854 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "greys",
-    "name": "Grey Aliens",
-    "aliases": [
-      {
-        "name": "Greys",
-        "region": "Global",
-        "meaning": "Named for grey/pale skin coloration"
-      },
-      {
-        "name": "Grey Aliens",
-        "region": "Global",
-        "meaning": "Full descriptive name"
-      },
-      {
-        "name": "Zetas",
-        "region": "Global",
-        "meaning": "Claimed origin from Zeta Reticuli star system"
-      },
-      {
-        "name": "EBE",
-        "region": "USA",
-        "meaning": "Extraterrestrial Biological Entity (military/government terminology)"
-      },
-      {
-        "name": "Roswell Greys",
-        "region": "USA",
-        "meaning": "Associated with alleged 1947 Roswell crash"
-      }
-    ],
-    "category": "UFO_UAP",
-    "subcategory": "Alien Species",
+    "name": "Grey Aliens (Greys)",
+    "aliases": [],
+    "category": "|_GREYS_SUBSET_OF_ALIEN_ENCOUNTERS_|",
+    "subcategory": "sensationalist media",
     "tags": [
-      "extraterrestrial",
-      "alien-entity",
-      "abduction",
-      "UFO",
-      "humanoid",
-      "telepathic",
-      "medical-examination",
-      "global-phenomenon"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Classic 'grey alien' archetype - short humanoids with large bulbous heads, huge black almond-shaped eyes, grey or pale skin. Most commonly reported alien type in abduction scenarios, popularized by the Betty and Barney Hill case (1961) and Whitley Strieber's 'Communion' (1987).",
-      "full": "Grey aliens, or 'Greys,' represent the most iconic and widely reported type of alleged extraterrestrial entity. Described as short humanoid beings standing 3-4 feet tall (with some variants reported at 5-6 feet), they are characterized by disproportionately large, bulbous heads, enormous black almond-shaped eyes that dominate their facial features, minimal nose and mouth structures, thin frail bodies, long arms, and grey or pale white skin. Greys emerged in UFO literature in the 1950s-60s but achieved cultural ubiquity following the 1961 Betty and Barney Hill abduction case and exploded into public consciousness with Whitley Strieber's 1987 book 'Communion' and its haunting cover image. Greys are most commonly associated with abduction scenarios involving medical examinations, reproductive procedures, telepathic communication, and emotionless behavior. While proponents claim Greys represent genuine extraterrestrial visitors (often said to originate from Zeta Reticuli), skeptics attribute the phenomenon to sleep paralysis hallucinations, false memories, cultural contamination, and psychological factors. The Grey has become the archetypal alien in popular culture, appearing in countless films, television shows, and media."
+      "summary": "Grey aliens, or \\\"Greys,\\\" represent the most iconic and widely reported type of alleged extraterrestrial entity in modern UFO literature.",
+      "full": "Grey aliens, or \\\"Greys,\\\" represent the most iconic and widely reported type of alleged extraterrestrial entity in modern UFO literature. Described as short humanoid beings standing 3-4 feet tall (with occasional taller variants), they are characterized by: The Grey archetype emerged in UFO literature during the 1950s-60s but achieved cultural ubiquity following the **Betty and Barney Hill abduction case (1961)** and exploded into public consciousness with **Whitley Strieber's bestselling book \\\"Communion\\\" (1987)** and its haunting cover image. Greys are most commonly associated with **abduction scenarios** involving medical examinations, reproductive procedures, telepathic communication, and emotionless clinical behavior. The phenomenon peaked in the 1980s-1990s and has declined in the 2000s, though reports continue."
     },
     "etymology": {
-      "origin": "The term 'Greys' derives from the consistently reported grey or grey-white skin coloration of these entities. The archetype coalesced in the 1960s and was popularized by abduction researchers.",
-      "meaning": "Named for grey/pale skin color; 'grey' suggesting something between black and white, alien and human",
-      "first_use": "1960s (widespread use post-1987 'Communion')"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "UFO_UAP",
-      "type": "Alleged Alien Species",
-      "subtype": "Humanoid Extraterrestrial",
-      "variant": "Short Grey (Primary)"
+      "category": "|_GREYS_SUBSET_OF_ALIEN_ENCOUNTERS_|",
+      "type": "sensationalist media",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "aliens",
-        "name": "UFOs/UAPs",
-        "relationship": "parent_category",
-        "description": "Greys are a subset of alleged alien encounters"
-      },
-      {
-        "id": "abduction-phenomenon",
-        "name": "Alien Abduction",
-        "relationship": "associated",
-        "description": "Greys are most common entity type in abduction reports"
-      },
-      {
-        "id": "men-in-black",
-        "name": "Men in Black",
-        "relationship": "related",
-        "description": "Sometimes associated with Grey-related UFO encounters"
-      },
-      {
-        "id": "nordics",
-        "name": "Nordic Aliens",
-        "relationship": "alternative_type",
-        "description": "Different alien archetype; sometimes reported alongside Greys"
-      },
-      {
-        "id": "reptilians",
-        "name": "Reptilian Aliens",
-        "relationship": "alternative_type",
-        "description": "Alternative alien type in some abduction accounts"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 0.9,
-        "max": 1.5,
-        "unit": "meters",
-        "notes": "Typically 3-4 feet; taller variants (5-6 feet) occasionally reported",
-        "confidence": "medium"
-      },
-      "weight": {
-        "min": 18,
-        "max": 35,
-        "unit": "kilograms",
-        "notes": "Described as extremely light and frail-looking",
-        "confidence": "low"
-      },
-      "coloration": [
-        "grey (most common)",
-        "pale white/grey-white",
-        "grey-blue (occasionally)",
-        "tan/beige (rare variants)"
-      ],
-      "features": [
-        {
-          "feature": "Head",
-          "description": "Disproportionately large and bulbous, pear-shaped or inverted teardrop",
-          "frequency": "always"
-        },
-        {
-          "feature": "Eyes",
-          "description": "Enormous black almond-shaped eyes, sometimes with vertical pupils; dominate facial features",
-          "frequency": "always"
-        },
-        {
-          "feature": "Nose",
-          "description": "Minimal or vestigial; small holes or slits",
-          "frequency": "always"
-        },
-        {
-          "feature": "Mouth",
-          "description": "Small, thin slit; rarely observed opening",
-          "frequency": "always"
-        },
-        {
-          "feature": "Ears",
-          "description": "Absent or minimal indentations",
-          "frequency": "common"
-        },
-        {
-          "feature": "Body",
-          "description": "Thin, frail-appearing, childlike proportions with enlarged head",
-          "frequency": "always"
-        },
-        {
-          "feature": "Arms",
-          "description": "Long, thin arms extending past knees in some reports",
-          "frequency": "common"
-        },
-        {
-          "feature": "Hands",
-          "description": "3-4 long, thin fingers (4 most commonly reported); occasionally webbed",
-          "frequency": "always"
-        },
-        {
-          "feature": "Skin",
-          "description": "Smooth, hairless, grey or pale; sometimes described as rubbery or amphibian-like",
-          "frequency": "always"
-        },
-        {
-          "feature": "Genitalia",
-          "description": "Typically reported as absent or not visible",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Bipedal humanoid with extreme neotenic (child-like) proportions. Large cranium suggesting advanced brain capacity. Minimal sensory organs except eyes. Thin skeletal structure."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Telepathic communication",
-        "description": "Reported to communicate mind-to-mind without speaking",
-        "frequency": "very common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Paralysis induction",
-        "description": "Ability to paralyze or immobilize witnesses",
-        "frequency": "very common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Memory suppression",
-        "description": "Can block or alter memories of encounters",
-        "frequency": "common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Emotional suppression",
-        "description": "Can induce calm or suppress fear responses in subjects",
-        "frequency": "common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Wall-phasing",
-        "description": "Reported ability to pass through solid walls",
-        "frequency": "occasional",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "Levitation",
-        "description": "Reported floating or levitating subjects and themselves",
-        "frequency": "common",
-        "evidence_level": "reported"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "neutral to emotionless",
-      "social_structure": "hierarchical",
-      "interaction_patterns": [
-        "Medical/scientific examination of subjects",
-        "Reproductive/genetic procedures",
-        "Telepathic communication",
-        "Emotionally detached, clinical demeanor",
-        "Work in coordinated groups",
-        "Often accompanied by taller Grey 'leaders' or other entity types"
-      ],
-      "reported_motivations": [
-        "Medical/biological research",
-        "Genetic hybridization programs",
-        "Monitoring human development",
-        "Unknown scientific purposes"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Global phenomenon with highest concentration of reports in the United States, particularly during 1980s-1990s. Reports span all continents with inhabited regions.",
-      "continents": ["North America", "South America", "Europe", "Asia", "Australia", "Africa"],
-      "countries": ["United States", "United Kingdom", "Brazil", "Canada", "Australia", "widespread global reports"],
-      "regions": [
-        "United States (highest concentration)",
-        "United Kingdom",
-        "Brazil",
-        "Canada",
-        "Australia"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "United States",
-        "location": {
-          "description": "Nationwide, particularly rural areas",
-          "country": "United States",
-          "region": "Various states",
-          "coordinates": null
-        },
-        "report_count": 5000,
-        "peak_period": "1980s-1990s",
-        "notes": "Highest concentration of Grey abduction reports globally"
-      },
-      {
-        "name": "New Hampshire (Hill Case Location)",
-        "location": {
-          "description": "Route 3, White Mountains",
-          "country": "United States",
-          "region": "New Hampshire",
-          "coordinates": {
-            "latitude": 44.0,
-            "longitude": -71.5,
-            "precision": "approximate"
-          }
-        },
-        "report_count": 1,
-        "peak_period": "1961",
-        "notes": "Site of pivotal Betty and Barney Hill abduction"
-      },
-      {
-        "name": "United Kingdom",
-        "location": {
-          "description": "Various locations",
-          "country": "United Kingdom",
-          "region": "England, Scotland",
-          "coordinates": null
-        },
-        "report_count": 500,
-        "peak_period": "1980s-1990s",
-        "notes": "Significant Grey abduction reports"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1950s",
+        "date": "Unknown",
         "circa": true,
-        "source": "Early contactee reports; archetype coalesced in 1960s"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "1961",
-          "description": "Betty and Barney Hill case brings Greys to public attention"
-        },
-        {
-          "period": "1975-1985",
-          "description": "Wave of abduction reports; Hopkins and Jacobs research begins"
-        },
-        {
-          "period": "1987-1997",
-          "description": "Peak of abduction phenomenon following 'Communion' publication"
-        },
-        {
-          "period": "2000s-present",
-          "description": "Decline in traditional abduction reports; phenomenon persists but reduced frequency"
-        }
-      ],
-      "seasonal_patterns": "No clear seasonal pattern; nocturnal encounters predominate"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "The Grey archetype emerged in 1950s-60s UFO literature but achieved its modern form through the Betty and Barney Hill case (1961). While some claim ancient origins, the consistent Grey description is a modern phenomenon.",
-      "earliest_accounts": "Proto-Grey descriptions in 1950s contactee literature; consolidated form emerged 1960s",
-      "folklore_connections": "No clear folkloric antecedents; represents modern UFO-era creation. Some researchers draw parallels to fairies, changelings, or other folkloric 'little people.'"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1947-07",
-        "event": "Roswell Incident",
-        "significance": "Alleged crash; bodies described in later accounts match Grey archetype (disputed authenticity)",
-        "source": "Post-1978 witness testimonies (original 1947 reports did not describe bodies)"
-      },
-      {
-        "date": "1961-09-19",
-        "event": "Betty and Barney Hill Abduction",
-        "significance": "First widely publicized abduction featuring Grey entities under hypnotic regression",
-        "source": "Fuller, J.G. (1966). The Interrupted Journey"
-      },
-      {
-        "date": "1964",
-        "event": "Betty Hill Star Map",
-        "significance": "Under hypnosis, Betty Hill draws star map allegedly shown by aliens; later interpreted as Zeta Reticuli system",
-        "source": "Marjorie Fish analysis (1969)"
-      },
-      {
-        "date": "1975-11-05",
-        "event": "Travis Walton Abduction",
-        "significance": "Logger reports five-day abduction with Grey entities; multiple witnesses to initial disappearance",
-        "source": "Walton, T. (1978). The Walton Experience"
-      },
-      {
-        "date": "1976-08-20",
-        "event": "Allagash Abductions",
-        "significance": "Four men report abduction in Maine wilderness with Grey entities",
-        "source": "Fowler, R. (1993). The Allagash Abductions"
-      },
-      {
-        "date": "1981",
-        "event": "Budd Hopkins publishes 'Missing Time'",
-        "significance": "Establishes abduction research methodology; documents Grey encounters",
-        "source": "Hopkins, B. (1981). Missing Time"
-      },
-      {
-        "date": "1987",
-        "event": "Whitley Strieber publishes 'Communion'",
-        "significance": "Bestselling book with iconic Grey cover image; brings abduction phenomenon to mainstream",
-        "source": "Strieber, W. (1987). Communion"
-      },
-      {
-        "date": "1992",
-        "event": "MIT Abduction Conference",
-        "significance": "Academic conference organized by Dr. John Mack legitimizes abduction research",
-        "source": "MIT Conference Proceedings"
-      },
-      {
-        "date": "1994",
-        "event": "John Mack publishes 'Abduction'",
-        "significance": "Harvard psychiatrist documents abduction cases; professional credibility boost",
-        "source": "Mack, J. (1994). Abduction"
-      },
-      {
-        "date": "2005",
-        "event": "Susan Clancy publishes 'Abducted'",
-        "significance": "Skeptical psychological analysis linking abductions to sleep paralysis and false memory",
-        "source": "Clancy, S. (2005). Abducted"
-      }
-    ],
-    "modern_era": "The Grey abduction phenomenon peaked in the 1980s-1990s and has declined in the 2000s. Contemporary discussion focuses on psychological explanations (sleep paralysis, false memory), cultural contamination, and the role of media in shaping experiences. The archetype remains culturally dominant in alien imagery."
+    "timeline": []
   },
-
-  "encounters": {
+  "sightings": {
     "statistics": {
-      "total_documented": 6000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 5800,
-      "debunked": 200,
-      "date_range": {
-        "earliest": "1950s",
-        "latest": "2026"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "grey-encounter-1961-hill",
-        "name": "Betty and Barney Hill Abduction",
-        "date": {
-          "value": "1961-09-19",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Route 3, White Mountains",
-          "country": "United States",
-          "region": "New Hampshire",
-          "coordinates": {
-            "latitude": 44.0,
-            "longitude": -71.5,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 2,
-          "types": ["Civilians"],
-          "credibility_factors": ["Interracial couple faced skepticism", "Sought psychiatric help privately", "Hypnotic regression revealed consistent details"]
-        },
-        "description": "Betty and Barney Hill, driving home from vacation, observed a bright light that descended and paced their car. They experienced missing time (two hours unaccounted for) and later recalled being taken aboard a craft where short grey-skinned humanoids with large eyes conducted medical examinations. Under hypnotic regression conducted by Dr. Benjamin Simon, both described similar Grey entities independently. Betty drew a star map shown to her, later interpreted as depicting Zeta Reticuli. This case established the template for Grey abduction scenarios.",
-        "conditions": {
-          "weather": "Clear night",
-          "visibility": "Good",
-          "time_of_day": "Late night",
-          "duration": "Approximately 2 hours (missing time)"
-        },
-        "evidence": [
-          "Hypnotic regression transcripts",
-          "Star map drawing",
-          "Physical effects reported (dress torn, Barney's shoes scuffed)",
-          "Consistent independent testimonies"
-        ],
-        "credibility": {
-          "rating": "medium",
-          "factors": [
-            "Multiple witnesses with consistent accounts",
-            "No apparent motive for fabrication",
-            "Hypnotic regression raises concerns about false memory",
-            "Case predates widespread Grey archetype (though book published 1966)"
-          ],
-          "notes": "Most influential abduction case in history. Skeptics note hypnotic regression can create false memories; believers note Hills were credible witnesses with no UFO interest prior."
-        },
-        "sources": [
-          "Fuller, J.G. (1966). The Interrupted Journey",
-          "Original hypnotic regression tapes (archived)"
-        ],
-        "featured": true
-      },
-      {
-        "id": "grey-encounter-1975-walton",
-        "name": "Travis Walton Abduction",
-        "date": {
-          "value": "1975-11-05",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Apache-Sitgreaves National Forest",
-          "country": "United States",
-          "region": "Arizona",
-          "coordinates": {
-            "latitude": 34.3,
-            "longitude": -110.5,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 7,
-          "types": ["Forestry workers"],
-          "credibility_factors": ["Multiple witnesses to disappearance", "Passed polygraph tests", "Consistent over decades", "No financial motive apparent initially"]
-        },
-        "description": "Logger Travis Walton was allegedly abducted by a UFO witnessed by six coworkers. He reappeared five days later with memories of examination aboard a craft by Grey entities and taller humanoid beings. Coworkers passed polygraph tests regarding the disappearance. Walton's account includes classic Grey description: large eyes, grey skin, small stature. Skeptics note failed initial polygraph and potential hoax motive.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Dusk",
-          "time_of_day": "Evening",
-          "duration": "5 days missing"
-        },
-        "evidence": [
-          "Six witness testimonies to initial event",
-          "Polygraph tests (coworkers passed; Walton's results disputed)",
-          "Medical examination upon return (no definitive anomalies)",
-          "Consistent testimony over 40+ years"
-        ],
-        "credibility": {
-          "rating": "medium-low",
-          "factors": [
-            "Multiple witnesses to disappearance/UFO",
-            "Polygraph results disputed",
-            "Possible financial motive (movie rights, book)",
-            "Missing time harder to explain than single-witness abduction"
-          ],
-          "notes": "One of most famous abduction cases due to multiple witnesses. Skeptics like Philip Klass suggested hoax; believers cite witness credibility and consistency."
-        },
-        "sources": [
-          "Walton, T. (1978). The Walton Experience",
-          "Klass, P. (1983). UFOs: The Public Deceived"
-        ],
-        "featured": true
-      },
-      {
-        "id": "grey-encounter-1987-strieber",
-        "name": "Whitley Strieber Experiences",
-        "date": {
-          "value": "1985-12-26",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Cabin in upstate New York",
-          "country": "United States",
-          "region": "New York",
-          "coordinates": null
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Author"],
-          "credibility_factors": ["Horror fiction writer (cuts both ways)", "Sought psychiatric evaluation", "Detailed, consistent account"]
-        },
-        "description": "Author Whitley Strieber reported multiple encounters with Grey entities beginning December 1985. His 1987 book 'Communion' featured iconic cover image of Grey face that defined the archetype visually. Strieber described bedroom visitations, examinations, and ongoing contact. Unlike typical abduction accounts, Strieber explored metaphysical/interdimensional interpretations. The book became a bestseller and brought Greys into mainstream consciousness.",
-        "conditions": {
-          "weather": "Winter night",
-          "visibility": "Dark/indoor",
-          "time_of_day": "Night",
-          "duration": "Ongoing experiences"
-        },
-        "evidence": [
-          "Detailed written account",
-          "Psychiatric evaluation (no mental illness found)",
-          "Hypnotic regression sessions",
-          "Multiple alleged encounters"
-        ],
-        "credibility": {
-          "rating": "low-medium",
-          "factors": [
-            "Single witness",
-            "Professional fiction writer (creates skepticism)",
-            "No physical evidence",
-            "Experiences differ from typical abduction pattern",
-            "Massive cultural impact regardless of veracity"
-          ],
-          "notes": "Most culturally significant Grey account due to 'Communion' cover image. Skeptics note Strieber's fiction background; believers note psychiatric clearance and sincerity."
-        },
-        "sources": [
-          "Strieber, W. (1987). Communion",
-          "Strieber, W. (1988). Transformation"
-        ],
-        "featured": true
-      }
-    ],
-    "database_path": "./encounters/"
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "id": "grey-evidence-implants",
-        "type": "alleged implants",
-        "name": "Abductee Implants",
-        "date": "Various (1990s-2000s)",
-        "description": "Small objects removed from alleged abductees, claimed to be alien tracking/monitoring devices",
-        "location": "Various",
-        "status": "debunked",
-        "analysis": "Objects analyzed have been identified as common terrestrial materials (metal fragments, glass shards) consistent with mundane origins",
-        "source": "Dr. Roger Leir (believer); skeptical analysis by various labs"
-      },
-      {
-        "id": "grey-evidence-scars",
-        "type": "body marks",
-        "name": "Scoop marks and scars",
-        "date": "Various",
-        "description": "Unusual scars, 'scoop marks,' or unexplained body marks reported by alleged abductees",
-        "status": "disputed",
-        "analysis": "Medical professionals note marks are consistent with common skin conditions, minor injuries, or natural scarring",
-        "source": "Various abduction researchers"
-      }
-    ],
-    "photographic": [
-      {
-        "id": "grey-evidence-communion-cover",
-        "type": "artistic rendering",
-        "name": "Communion Book Cover",
-        "date": "1987",
-        "description": "Iconic Grey face painted by Ted Seth Jacobs based on Strieber's description",
-        "status": "artistic",
-        "analysis": "Artistic rendering, not photograph; became definitive visual representation of Greys",
-        "source": "Whitley Strieber / Ted Seth Jacobs"
-      }
-    ],
+    "physical": [],
+    "photographic": [],
     "video": [],
     "audio": [],
-    "trace": [
-      {
-        "id": "grey-evidence-landing-marks",
-        "type": "ground traces",
-        "name": "Landing site anomalies",
-        "description": "Alleged landing sites where abductions occurred showing burned circles, depressed vegetation",
-        "status": "disputed",
-        "analysis": "Most explained by natural phenomena or conventional causes"
-      }
-    ],
-    "testimonial": [
-      {
-        "id": "grey-evidence-regression",
-        "type": "hypnotic regression",
-        "name": "Thousands of regression accounts",
-        "description": "Consistent Grey descriptions emerging from hypnotic regression sessions",
-        "status": "disputed",
-        "analysis": "Skeptics note hypnotic regression can create false memories; believers cite consistency across independent witnesses",
-        "source": "Hopkins, Jacobs, Mack research"
-      }
-    ]
+    "trace": []
   },
-
   "theories": {
-    "extraterrestrial": [
-      {
-        "name": "Zeta Reticuli Origin",
-        "description": "Greys originate from planetary system around Zeta Reticuli binary star, approximately 39 light-years away. Based on Betty Hill's star map.",
-        "proponents": ["Marjorie Fish", "Budd Hopkins", "Stanton Friedman"],
-        "evidence_cited": ["Betty Hill star map interpretation", "Alleged abductee testimonies", "Claimed Roswell document references"]
-      },
-      {
-        "name": "Genetic Hybridization Program",
-        "description": "Greys are conducting long-term genetic program creating human-alien hybrids for unknown purpose (species continuation, colonization, etc.)",
-        "proponents": ["David Jacobs", "Budd Hopkins"],
-        "evidence_cited": ["Reproductive procedures in abductions", "Claims of hybrid children", "Missing fetus cases"]
-      },
-      {
-        "name": "Scientific Observation",
-        "description": "Greys are studying humanity as we study animals - detached scientific curiosity explaining their emotionless demeanor",
-        "proponents": ["Various researchers"],
-        "evidence_cited": ["Medical examination focus", "Non-hostile behavior", "Alleged ongoing monitoring"]
-      }
-    ],
-    "interdimensional": [
-      {
-        "name": "Interdimensional Beings",
-        "description": "Greys are not extraterrestrial but interdimensional entities, explaining their ability to pass through walls and sudden appearances",
-        "proponents": ["Whitley Strieber (later writings)", "Jacques Vallée"],
-        "evidence_cited": ["Wall-phasing reports", "Similarity to fairy folklore", "Non-physical aspects of encounters"]
-      }
-    ],
-    "time_travel": [
-      {
-        "name": "Future Humans",
-        "description": "Greys are evolved future humans time-traveling to study ancestors or harvest genetic material from pre-catastrophe humanity",
-        "proponents": ["Michael Masters"],
-        "evidence_cited": ["Humanoid form", "Reproductive focus", "Large brain/small body (evolutionary trajectory)", "Neotenous features"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Sleep Paralysis",
-        "description": "Grey encounters are sleep paralysis episodes. The brain is awake but body paralyzed, often accompanied by hallucinations of beings in the room.",
-        "proponents": ["Susan Clancy", "Christopher French", "Carl Sagan"],
-        "evidence_cited": ["Paralysis consistent with sleep paralysis", "Nocturnal timing", "Hallucinatory quality", "Cultural influence on hallucination content"]
-      },
-      {
-        "name": "False Memory Syndrome",
-        "description": "Memories of Grey abductions are false memories created through hypnotic regression, suggestion, therapy, or media contamination",
-        "proponents": ["Elizabeth Loftus", "Susan Clancy", "Philip Klass"],
-        "evidence_cited": ["Hypnotic regression unreliability", "Therapist suggestion", "Increase in reports after media coverage", "Lack of physical evidence"]
-      },
-      {
-        "name": "Cultural Phenomenon",
-        "description": "The Grey is a modern cultural archetype created and perpetuated by media, films, and social contagion rather than real encounters",
-        "proponents": ["Robert Sheaffer", "Joe Nickell"],
-        "evidence_cited": ["Grey descriptions standardized after 'Communion'", "Decline in reports as cultural zeitgeist shifts", "Correlation with media exposure"]
-      },
-      {
-        "name": "Psychological Trauma Processing",
-        "description": "Abduction narratives are psychological constructs helping individuals process real trauma (abuse, assault) through alien encounter framework",
-        "proponents": ["Some psychologists"],
-        "evidence_cited": ["Overlap between abuse survivors and abductees", "Therapeutic value of abduction narrative", "Dissociation patterns"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
     "popular_culture": {
-      "literature": [
-        "Strieber, W. (1987). Communion",
-        "Hopkins, B. (1981). Missing Time",
-        "Hopkins, B. (1987). Intruders",
-        "Jacobs, D. (1992). Secret Life",
-        "Mack, J. (1994). Abduction",
-        "Fuller, J.G. (1966). The Interrupted Journey"
-      ],
-      "film_tv": [
-        "Close Encounters of the Third Kind (1977) - Proto-Greys",
-        "Communion (1989) - Based on Strieber book",
-        "Fire in the Sky (1993) - Travis Walton story",
-        "The X-Files (1993-2018) - Grey mythology central",
-        "Dark Skies (1996-1997) - Grey abduction series",
-        "Taken (2002) - Spielberg miniseries",
-        "American Dad - Roger the alien (comedic Grey)",
-        "South Park - Cartman probe episode (parody)"
-      ],
-      "games": [
-        "XCOM series - Grey-like alien invaders",
-        "Destroy All Humans - Crypto (parodic Grey)"
-      ],
-      "art": [
-        "Communion book cover (1987) - Defining Grey image",
-        "Countless Grey depictions in UFO art",
-        "Grey aliens in conspiracy theory imagery"
-      ],
-      "other": [
-        "Grey alien costumes (Halloween ubiquity)",
-        "Roswell, NM tourism industry",
-        "Area 51 cultural mythology",
-        "Alien emoji 👽 based on Grey archetype",
-        "Internet memes and jokes"
-      ]
-    },
-    "impact": {
-      "description": "The Grey has become THE archetypal alien in Western culture, surpassing all other alien types. The image is instantly recognizable globally. Greys appear in contexts from serious documentaries to comedy sketches, conspiracy theories to children's cartoons.",
-      "significance": "Whether representing genuine phenomenon or cultural creation, Greys have fundamentally shaped how humanity visualizes potential non-human intelligence."
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Budd Hopkins",
-        "affiliation": "Independent researcher, artist",
-        "contribution": "Pioneer abduction researcher; developed hypnotic regression methodology; documented hundreds of Grey abduction cases",
-        "period": "1980s-2011",
-        "stance": "Pro-extraterrestrial hypothesis"
-      },
-      {
-        "name": "Dr. David Jacobs",
-        "affiliation": "Temple University (retired)",
-        "contribution": "Historian who conducted extensive hypnotic regression research; proposed hybridization theory",
-        "period": "1990s-2018",
-        "stance": "Pro-extraterrestrial hypothesis"
-      },
-      {
-        "name": "Dr. John Mack",
-        "affiliation": "Harvard Medical School",
-        "contribution": "Pulitzer Prize-winning psychiatrist who legitimized abduction research in academic circles; took experiencers seriously",
-        "period": "1990-2004",
-        "stance": "Agnostic but took experiences seriously"
-      },
-      {
-        "name": "Dr. Susan Clancy",
-        "affiliation": "Harvard University",
-        "contribution": "Psychologist who researched abduction phenomenon; proposed sleep paralysis and false memory explanations",
-        "period": "2000s",
-        "stance": "Skeptical - psychological explanation"
-      },
-      {
-        "name": "Philip Klass",
-        "affiliation": "CSICOP/CSI",
-        "contribution": "Skeptical investigator who debunked many abduction cases including Travis Walton",
-        "period": "1970s-2005",
-        "stance": "Skeptical - hoax/misidentification"
-      },
-      {
-        "name": "Jacques Vallée",
-        "affiliation": "Independent researcher, computer scientist",
-        "contribution": "Proposed interdimensional hypothesis; compared Grey encounters to historical fairy/demon encounters",
-        "period": "1960s-present",
-        "stance": "Interdimensional/control system hypothesis"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "MUFON (Mutual UFO Network)",
-        "url": "https://www.mufon.com",
-        "focus": "UFO and abduction investigation"
-      },
-      {
-        "name": "CUFOS (Center for UFO Studies)",
-        "url": "http://www.cufos.org",
-        "focus": "Scientific UFO research (founded by Dr. J. Allen Hynek)"
-      },
-      {
-        "name": "FREE (Foundation for Research into Extraterrestrial Encounters)",
-        "url": "https://www.experiencer.org",
-        "focus": "Support and research for contact experiencers"
-      }
-    ],
-    "ongoing_studies": "Contemporary research focuses on psychological aspects, sleep paralysis studies, false memory research, and cultural influence on experience reporting. Traditional abduction research has declined significantly since the 1990s peak."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "fuller-1966",
-      "type": "book",
-      "title": "The Interrupted Journey",
-      "authors": ["John G. Fuller"],
-      "publication": "Dial Press",
-      "date": "1966",
-      "isbn": "978-0425037522"
-    },
-    {
-      "id": "strieber-1987",
-      "type": "book",
-      "title": "Communion: A True Story",
-      "authors": ["Whitley Strieber"],
-      "publication": "Beech Tree Books",
-      "date": "1987",
-      "isbn": "978-0688070830"
-    },
-    {
-      "id": "hopkins-1981",
-      "type": "book",
-      "title": "Missing Time",
-      "authors": ["Budd Hopkins"],
-      "publication": "Richard Marek Publishers",
-      "date": "1981",
-      "isbn": "978-0399900938"
-    },
-    {
-      "id": "mack-1994",
-      "type": "book",
-      "title": "Abduction: Human Encounters with Aliens",
-      "authors": ["John E. Mack"],
-      "publication": "Charles Scribner's Sons",
-      "date": "1994",
-      "isbn": "978-0684814537"
-    },
-    {
-      "id": "clancy-2005",
-      "type": "book",
-      "title": "Abducted: How People Come to Believe They Were Kidnapped by Aliens",
-      "authors": ["Susan A. Clancy"],
-      "publication": "Harvard University Press",
-      "date": "2005",
-      "isbn": "978-0674018792"
-    },
-    {
-      "id": "jacobs-1992",
-      "type": "book",
-      "title": "Secret Life: Firsthand Accounts of UFO Abductions",
-      "authors": ["David M. Jacobs"],
-      "publication": "Simon & Schuster",
-      "date": "1992",
-      "isbn": "978-0671745158"
-    },
-    {
-      "id": "walton-1978",
-      "type": "book",
-      "title": "The Walton Experience",
-      "authors": ["Travis Walton"],
-      "publication": "Berkley",
-      "date": "1978",
-      "isbn": "978-0425039519"
-    }
-  ]
+  "sources": []
 }
