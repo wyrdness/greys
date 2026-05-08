@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/greys",
     "maintainers": [
       {
@@ -16,111 +16,316 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "greys",
     "name": "Grey Aliens (Greys)",
-    "aliases": [],
-    "category": "|_GREYS_SUBSET_OF_ALIEN_ENCOUNTERS_|",
-    "subcategory": "sensationalist media",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Greys", "language": "English", "meaning": "common short form" },
+      { "name": "Gray Aliens", "language": "American English", "meaning": "spelling variant" },
+      { "name": "Zeta Reticulans", "language": "English (UFO subculture)", "meaning": "after the 'Zeta Reticuli star map' from the Hill case" },
+      { "name": "The Visitors", "language": "English", "meaning": "term used by Whitley Strieber in Communion (1987)" }
     ],
-    "status": "documented",
+    "category": "UFO_UAP",
+    "subcategory": "Alleged extraterrestrial entity (humanoid)",
+    "tags": [
+      "ufo",
+      "abduction",
+      "extraterrestrial",
+      "humanoid",
+      "20th-century",
+      "ufology"
+    ],
+    "status": "unverified",
     "description": {
-      "summary": "Grey aliens, or \\\"Greys,\\\" represent the most iconic and widely reported type of alleged extraterrestrial entity in modern UFO literature.",
-      "full": "Grey aliens, or \\\"Greys,\\\" represent the most iconic and widely reported type of alleged extraterrestrial entity in modern UFO literature. Described as short humanoid beings standing 3-4 feet tall (with occasional taller variants), they are characterized by: The Grey archetype emerged in UFO literature during the 1950s-60s but achieved cultural ubiquity following the **Betty and Barney Hill abduction case (1961)** and exploded into public consciousness with **Whitley Strieber's bestselling book \\\"Communion\\\" (1987)** and its haunting cover image. Greys are most commonly associated with **abduction scenarios** involving medical examinations, reproductive procedures, telepathic communication, and emotionless clinical behavior. The phenomenon peaked in the 1980s-1990s and has declined in the 2000s, though reports continue."
+      "summary": "Greys are the most commonly reported alleged extraterrestrial entity in modern UFO and abduction literature: small, hairless humanoids with disproportionately large heads and large black eyes, central to the Betty and Barney Hill case (1961) and Whitley Strieber's Communion (1987).",
+      "full": "Greys (or Grey Aliens) are the dominant entity-type in late-20th-century western UFO and 'alien abduction' lore. Witnesses describe them as short (typically 3–4 feet, occasionally up to 6 feet), thin humanoids with smooth grey skin, hairless oversized heads, large black almond-shaped eyes, vestigial or absent noses, ears, and mouths, and slim limbs with three or four long fingers. They are usually reported in 'medical examination' abduction scenarios with telepathic communication, emotionless behaviour, and (especially in Budd Hopkins's and David Jacobs's writings) reproductive procedures. The Grey image consolidated through the September 1961 Betty and Barney Hill abduction case in New Hampshire — first widely reported in 1965 — and exploded into mass culture with Whitley Strieber's bestseller Communion (1987), whose Ted Seth Jacobs cover painting became iconic. Sceptics including Robert Sheaffer, Martin Kottmeyer, Carl Sagan, and Susan Clancy have argued that the Grey is a culturally-transmitted image with documentable antecedents in H. G. Wells (1893) and the Swedish novelist Gustav Sandgren (1933), and that Barney Hill's 1964 hypnotic descriptions were specifically influenced by the Outer Limits episode 'The Bellero Shield' (broadcast 10 February 1964, twelve days before the first hypnosis session)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American UFO subculture; the colour-based label 'grey aliens' becomes standard in English-language ufology in the late 1970s and 1980s.",
+      "meaning": "Named for the characteristic grey skin reported by witnesses.",
+      "first_use": "1960s–1970s in UFO literature; mass currency from c. 1987"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_GREYS_SUBSET_OF_ALIEN_ENCOUNTERS_|",
-      "type": "sensationalist media",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UFO_UAP",
+      "type": "Alleged extraterrestrial entity",
+      "subtype": "Humanoid (Grey)",
+      "variant": "Standard 'small Grey'; some literature distinguishes taller 'Tall Greys'"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "nordics", "name": "Nordic aliens", "relationship": "counterpart", "description": "Tall, fair-haired humanoid alien type also reported in UFO lore" },
+      { "id": "reptilians", "name": "Reptilians", "relationship": "counterpart", "description": "Reptilian humanoid alien type" },
+      { "id": "mantids", "name": "Mantis beings", "relationship": "related", "description": "Insectoid alien type often reported alongside Greys" },
+      { "id": "ufo-uap", "name": "UFO/UAP", "relationship": "superset", "description": "Greys are the most-reported entity-type within the broader UFO phenomenon" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.9, "max": 1.8, "unit": "meters", "confidence": "low" },
+      "coloration": ["grey", "grey-white", "pale blue-grey"],
+      "features": [
+        { "feature": "Oversized hairless head", "description": "Disproportionately large cranium relative to the body", "frequency": "always" },
+        { "feature": "Large black almond eyes", "description": "Wraparound, lid-less, all-black eyes are the signature feature", "frequency": "always" },
+        { "feature": "Vestigial or absent nose, mouth, ears", "description": "Often described as a small slit or hole rather than a structured nose/mouth", "frequency": "common" },
+        { "feature": "Slim torso and limbs", "description": "Thin body with thin arms and legs; three or four long fingers", "frequency": "common" },
+        { "feature": "No visible genitalia or hair", "description": "Smooth, sexless, and hairless overall morphology", "frequency": "common" }
+      ],
+      "morphology": "Standardised humanoid 'Grey' type in modern UFO art. Witness sketches converge after Whitley Strieber's 1987 cover, raising concerns of cultural feedback."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Telepathic communication", "description": "Communication 'directly into the mind' rather than by speech", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Paralysis induction", "description": "Witnesses report being unable to move during encounters; sceptics link this to sleep paralysis", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Memory editing / 'screen memories'", "description": "Detailed memories sometimes recovered only under hypnosis (controversial)", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Spacecraft operation", "description": "Reported as occupants of disc, triangle, and egg-shaped craft", "frequency": "always", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "pack",
+      "habitat_preference": ["alleged spacecraft", "rural roads at night", "bedroom 'visitations'"],
+      "patterns": [
+        "Encounter typically begins with a UFO sighting and ends in 'missing time'",
+        "Medical-examination motif on board the craft",
+        "Reproductive / hybrid-program motif (Hopkins, Jacobs)",
+        "Repeat-experiencer pattern across years"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports concentrated in the United States, with significant numbers in the United Kingdom, Australia, Canada, and continental Europe. Per C. D. B. Bryan's review, Greys account for ~73% of US alien-encounter reports, ~50% in Australia, ~48% in continental Europe, and ~12% in the UK.",
+      "continents": ["North America", "Europe", "Oceania", "South America"],
+      "countries": ["United States", "United Kingdom", "Canada", "Australia", "France", "Brazil"],
+      "regions": ["northeastern United States", "American Southwest", "rural Britain", "Australian outback"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "White Mountains, New Hampshire",
+        "location": {
+          "description": "Section of US Route 3 between Lancaster and Concord, NH; site of the Betty and Barney Hill case",
+          "country": "United States",
+          "region": "New Hampshire",
+          "coordinates": { "latitude": 44.4886, "longitude": -71.5731 }
+        },
+        "peak_period": "1961",
+        "notes": "Foundational case of the Grey-abduction archetype."
+      },
+      {
+        "name": "Roswell, New Mexico",
+        "location": {
+          "description": "Site of the 1947 'Roswell Incident', retroactively associated with Greys in popular culture",
+          "country": "United States",
+          "region": "New Mexico",
+          "coordinates": { "latitude": 33.3943, "longitude": -104.5230 }
+        },
+        "peak_period": "1947 (retroactively)",
+        "notes": "Originally a recovered 'flying disc' story; recast as a Grey-occupant story from the late 1970s onward."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1961-09-19",
+        "circa": false,
+        "source": "Betty and Barney Hill case, New Hampshire"
+      },
+      "peak_activity_periods": [
+        { "period": "1961–1975", "description": "Foundational era: Hill case (1961), Pascagoula (1973), Travis Walton (1975)" },
+        { "period": "1987–1999", "description": "Mass-culture peak; Communion (1987), X-Files (1993–2002), Hopkins's Intruders (1987)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Modern American UFO subculture, 1947 onward; visual templates with antecedents in early-20th-century science fiction.",
+      "earliest_accounts": "H. G. Wells's 'The Man of the Year Million' (1893) and The Time Machine (1895) describe future humans with enlarged heads and shrunken features. Gustav Sandgren's Den okända faran (1933) describes short, grey-skinned, large-eyed extraterrestrials in clothing. The first canonical 'Grey' encounter is the Betty and Barney Hill case of 19 September 1961.",
+      "folklore_connections": "Continuous with older fairy-abduction motifs (changelings, sidhe), repackaged in 20th-century technological framing."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1893", "event": "H. G. Wells's essay 'The Man of the Year Million' depicts shrunken-bodied, large-headed future humans", "significance": "Earliest western literary antecedent of the Grey morphology", "source": "Wells, H. G. (1893)" },
+      { "date": "1933", "event": "Gustav Sandgren's novel Den okända faran depicts small, grey-skinned, large-eyed aliens in grey clothing", "significance": "Direct visual template for later Grey iconography", "source": "Wikipedia, 'Grey alien'" },
+      { "date": "1947-07", "event": "Roswell Incident: alleged crash of a 'flying disc' near Roswell, NM", "significance": "Later (post-1978) retconned as a Grey-occupant story", "source": "various" },
+      { "date": "1961-09-19", "event": "Betty and Barney Hill experience the foundational US 'abduction' case while driving on US Route 3 near Lancaster, NH", "significance": "Earliest widely-publicised abduction with Grey-like beings", "source": "John G. Fuller, The Interrupted Journey (1966)" },
+      { "date": "1964-02-10", "event": "Outer Limits airs 'The Bellero Shield', featuring an alien with wraparound eyes and no ears or hair", "significance": "Sceptical authors (Kottmeyer) link this directly to Barney Hill's 22 February 1964 hypnotic description", "source": "ABC broadcast" },
+      { "date": "1966", "event": "John G. Fuller publishes The Interrupted Journey, the first abduction bestseller", "significance": "Brings Hill case and Grey description to mass audience", "source": "Fuller, J. G. (1966), The Interrupted Journey" },
+      { "date": "1975-10-20", "event": "NBC airs The UFO Incident, dramatising the Hill abduction with William Shatner and Estelle Parsons", "significance": "Television cements the Grey image", "source": "NBC broadcast" },
+      { "date": "1987", "event": "Whitley Strieber publishes Communion: A True Story (Beech Tree/William Morrow); Ted Seth Jacobs's Grey portrait appears on the cover", "significance": "Communion becomes a #1 New York Times bestseller; cover image becomes the canonical Grey", "source": "Strieber, W. (1987), Communion" },
+      { "date": "1989", "event": "Communion film adaptation released, starring Christopher Walken", "significance": "Reinforces Grey iconography in popular cinema", "source": "Communion (film, 1989)" },
+      { "date": "1993", "event": "The X-Files debuts on Fox, with Greys as recurring antagonists", "significance": "Locks in the cultural-default alien", "source": "Fox broadcast" }
+    ],
+    "modern_era": "Greys remain the default 'alien' image in western popular culture, although academic UFO researchers (e.g. those associated with the post-2017 UAP/AARO programme) avoid entity-type claims and focus on craft observations."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1961-09-19", "latest": "ongoing" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "greys-sighting-1961-hill",
+        "name": "Betty and Barney Hill abduction",
+        "date": { "value": "1961-09-19", "precision": "exact" },
+        "location": {
+          "description": "US Route 3 between Lancaster and Concord, New Hampshire",
+          "country": "United States",
+          "region": "New Hampshire",
+          "coordinates": { "latitude": 44.4886, "longitude": -71.5731, "precision": "approximate" }
+        },
+        "witnesses": { "count": 2, "types": ["Betty Hill (social worker)", "Barney Hill (postal worker)"], "credibility_factors": ["Detailed contemporary diaries and letters", "Hypnosis sessions with Dr. Benjamin Simon, 1964"] },
+        "description": "Driving south at night, the Hills observed a bright moving light near the Moon that descended towards them. Barney stopped the car, observed humanoid figures through binoculars, and panicked. Both reported a buzzing sound, a period of altered awareness, and — under hypnosis with Dr. Benjamin Simon in 1964 — described a medical examination aboard a disc-shaped craft by short, grey, large-eyed humanoids. John G. Fuller's 1966 book The Interrupted Journey brought the case to mass attention; researcher Marjorie Fish later interpreted Betty's recalled 'star map' as a depiction of Zeta Reticuli.",
+        "conditions": { "weather": "Clear", "visibility": "Good night driving", "time_of_day": "After 22:30", "duration": "Several hours including 'missing time'" },
+        "evidence": ["Worn dress and shoes (Betty Hill)", "Stopped wristwatches", "Marks on car"],
+        "credibility": { "rating": "medium", "factors": ["Multiple witnesses", "Detailed, repeatedly retold accounts", "Hypnotic recovery is methodologically contested"], "notes": "Foundational case of Grey-alien iconography. Sceptics cite the 'Bellero Shield' coincidence and known unreliability of hypnotic memory." },
+        "sources": ["Fuller, J. G. (1966), The Interrupted Journey"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "greys-evidence-fuller-1966",
+        "type": "book",
+        "name": "The Interrupted Journey",
+        "date": "1966",
+        "description": "John G. Fuller's bestselling 1966 book on the Hill case, based on Dr. Benjamin Simon's hypnosis transcripts.",
+        "status": "verified",
+        "source": "Fuller, J. G. (1966)"
+      },
+      {
+        "id": "greys-evidence-communion-1987",
+        "type": "book",
+        "name": "Communion: A True Story",
+        "date": "1987",
+        "description": "Whitley Strieber's bestselling memoir of alleged contact with 'the Visitors'; the Ted Seth Jacobs cover painting became the canonical Grey image.",
+        "status": "disputed",
+        "analysis": "Strieber describes the experiences as real but does not commit to an extraterrestrial interpretation; sceptical analysis (Sheaffer, Clancy) treats it as a conflation of sleep paralysis, suggestion, and prior media exposure.",
+        "source": "Strieber, W. (1987)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Extraterrestrial visitation",
+        "description": "Greys are biological extraterrestrials visiting Earth, often associated with a hybridisation / breeding agenda in the Hopkins–Jacobs–Mack tradition.",
+        "proponents": ["Budd Hopkins", "David M. Jacobs", "John E. Mack"],
+        "evidence_cited": ["Cross-witness consistency in physical description", "Apparent independent corroborations between unrelated experiencers"]
+      },
+      {
+        "name": "Interdimensional / non-physical entity",
+        "description": "Greys are non-physical or interdimensional entities that present themselves through the cultural framework available to the witness.",
+        "proponents": ["Jacques Vallée"],
+        "evidence_cited": ["Continuity of motifs across abduction, fairy, and demonic-encounter literature"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural transmission and media influence",
+        "description": "Grey-alien imagery is a cultural product, traceable from H. G. Wells (1893) through Sandgren (1933), the Outer Limits 'Bellero Shield' (1964), and the Communion cover (1987). Witnesses describe what their culture expects.",
+        "proponents": ["Robert Sheaffer", "Martin Kottmeyer", "Carl Sagan"],
+        "evidence_cited": ["Bellero Shield broadcast 12 days before Barney Hill's first hypnosis session", "Convergence of witness sketches after 1987 Communion cover", "H. G. Wells / Sandgren textual antecedents"]
+      },
+      {
+        "name": "Sleep paralysis and false memory",
+        "description": "Many bedroom 'abduction' encounters fit the classical phenomenology of sleep paralysis with hypnopompic hallucinations; hypnotic 'recovery' of detail introduces confabulation.",
+        "proponents": ["Susan Clancy", "Richard McNally"],
+        "evidence_cited": ["Clancy, Abducted (Harvard, 2005)", "Standard sleep-paralysis literature"]
+      },
+      {
+        "name": "No physical evidence",
+        "description": "After more than half a century, no specimen, body, or unambiguous craft has been delivered to mainstream science.",
+        "proponents": ["Carl Sagan", "Robert Sheaffer"],
+        "evidence_cited": ["Sagan, The Demon-Haunted World (1995)"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": ["Modern UFO and abduction subculture", "Western 'visitor' folklore"],
+      "stories": [
+        "Betty and Barney Hill (1961)",
+        "Pascagoula abduction (Charles Hickson and Calvin Parker, 1973)",
+        "Travis Walton (Snowflake, Arizona, 1975)",
+        "Whitley Strieber's Communion (1985 events; book 1987)"
+      ],
+      "beliefs": "Within UFO subculture, Greys are widely treated as real extraterrestrial visitors; outside it they function as the default cultural symbol of 'alien'."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "John G. Fuller, The Interrupted Journey (1966)",
+        "Whitley Strieber, Communion: A True Story (1987)",
+        "Budd Hopkins, Intruders (1987)",
+        "John E. Mack, Abduction (1994)",
+        "Susan Clancy, Abducted (2005)"
+      ],
+      "film_tv": [
+        "The UFO Incident (NBC, 1975)",
+        "Close Encounters of the Third Kind (1977)",
+        "Communion (1989)",
+        "The X-Files (Fox, 1993–2002, 2016–2018)",
+        "Fire in the Sky (1993)",
+        "Taken (Sci-Fi Channel, 2002)"
+      ],
+      "games": [
+        "XCOM franchise — Sectoids (1994–present)",
+        "Destroy All Humans! (2005–)",
+        "Grand Theft Auto V — alien Easter eggs"
+      ],
+      "music": [
+        "Tool, 'Faaip de Oiad' (2001) — sampled from a 'Greys' Coast to Coast AM call"
+      ],
+      "other": [
+        "Standard 'alien' emoji (👽) follows Grey morphology",
+        "Pervasive use as a Halloween costume and pop-art motif"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "J. Allen Hynek", "affiliation": "Northwestern University; Center for UFO Studies", "contribution": "Founded modern UFO classification (Close Encounters of the Third Kind)", "period": "1948–1986" },
+      { "name": "Budd Hopkins", "affiliation": "independent", "contribution": "Major US abduction researcher; popularised the 'hybridisation' narrative", "period": "1970s–2011" },
+      { "name": "David M. Jacobs", "affiliation": "Temple University (history)", "contribution": "Academic engagement with abduction reports", "period": "1970s–present" },
+      { "name": "John E. Mack", "affiliation": "Harvard Medical School (psychiatry)", "contribution": "Clinical interviews with abduction experiencers", "period": "1990–2004" },
+      { "name": "Robert Sheaffer", "affiliation": "Skeptical Inquirer", "contribution": "Long-running sceptical analysis of UFO and Grey-alien claims", "period": "1976–present" },
+      { "name": "Susan Clancy", "affiliation": "Harvard University (psychology)", "contribution": "Memory and false-memory research applied to abduction reports", "period": "2000s" }
+    ],
+    "organizations": [
+      { "name": "MUFON (Mutual UFO Network)", "url": "https://mufon.com", "focus": "Civilian UFO investigation including entity reports" },
+      { "name": "Center for UFO Studies (CUFOS)", "url": "https://cufos.org", "focus": "Hynek's research organisation" },
+      { "name": "Committee for Skeptical Inquiry (CSI)", "url": "https://skepticalinquirer.org", "focus": "Sceptical analysis" }
+    ],
+    "ongoing_studies": "Modern academic UAP work (e.g. AARO at the US DoD, Harvard's Galileo Project) focuses on craft observations rather than entity-type claims; Grey-alien research remains primarily within the civilian ufology community."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-grey-alien", "type": "website", "title": "Grey alien", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Grey_alien", "accessed": "2026-05-07" },
+    { "id": "wikipedia-hill-incident", "type": "website", "title": "Barney and Betty Hill incident", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Barney_and_Betty_Hill_incident", "accessed": "2026-05-07" },
+    { "id": "fuller-1966", "type": "book", "title": "The Interrupted Journey: Two Lost Hours Aboard a Flying Saucer", "authors": ["John G. Fuller"], "publication": "Dial Press", "date": "1966" },
+    { "id": "strieber-1987", "type": "book", "title": "Communion: A True Story", "authors": ["Whitley Strieber"], "publication": "Beech Tree / William Morrow", "date": "1987", "isbn": "978-0688070861" },
+    { "id": "hopkins-1987", "type": "book", "title": "Intruders: The Incredible Visitations at Copley Woods", "authors": ["Budd Hopkins"], "publication": "Random House", "date": "1987", "isbn": "978-0394560762" },
+    { "id": "mack-1994", "type": "book", "title": "Abduction: Human Encounters with Aliens", "authors": ["John E. Mack"], "publication": "Charles Scribner's Sons", "date": "1994", "isbn": "978-0684194356" },
+    { "id": "clancy-2005", "type": "book", "title": "Abducted: How People Come to Believe They Were Kidnapped by Aliens", "authors": ["Susan A. Clancy"], "publication": "Harvard University Press", "date": "2005", "isbn": "978-0674018792" },
+    { "id": "sagan-1995", "type": "book", "title": "The Demon-Haunted World: Science as a Candle in the Dark", "authors": ["Carl Sagan"], "publication": "Random House", "date": "1995", "isbn": "978-0394535128" }
+  ]
 }
